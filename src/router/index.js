@@ -6,27 +6,31 @@ Vue.use(Router);
 export default new Router({
     routes: [
         {
-            path: '',
-            redirect: '/home'
+            path: '/supermall/',
+            redirect: '/supermall/home'
         },
         {
-            path: '/home',
+            path: '/supermall/dist',
+            redirect: '/supermall/home'
+        },
+        {
+            path: '/supermall/home',
             component: () => import('views/home/Home.vue')
         },
         {
-            path: '/detail',
+            path: '/supermall/detail',
             component: () => import('views/detail/Detail.vue'),
         },
         {
-            path: '/category',
+            path: '/supermall/category',
             component: () => import('views/category/Category.vue')
         },
         {
-            path: '/cart',
+            path: '/supermall/cart',
             component: () => import('views/cart/Cart.vue')
         },
         {
-            path: '/profile',
+            path: '/supermall/profile',
             component: () => import('views/profile/Profile.vue')
         }
     ],
