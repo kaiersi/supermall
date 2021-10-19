@@ -4,6 +4,9 @@ function resolve(dir) {
 }
 
 module.exports = {
+    indexPath: '../index.html',
+    publicPath: '/supermall/dist', // 基本路径
+    outputDir: 'dist', // 输出文件目录
     lintOnSave: true,
     chainWebpack: (config) => {
         config.resolve.alias
