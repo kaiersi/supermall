@@ -6,10 +6,10 @@
 其他工具： axios、Better-Scroll
 
 # 目录说明：
-  src/components 可复用组件
-  src/views SPA的各个主页，使用的子组件在子文件夹childComponent中，或者src/components
-  src/common 一般的封装js代码
-  src/network 网络的封装js代码
+src/components 可复用组件
+src/views SPA的各个主页，使用的子组件在子文件夹childComponent中，或者src/components
+src/common 一般的封装js代码
+src/network 网络的封装js代码
 
 ## 启用方式
 ```
