@@ -17,7 +17,8 @@ src/network 网络的封装js代码
 ## 启用方式
 ```
 npm install
-//等待下载
+//等待库下载完毕
 npm run serve
+//启动服务器
 ```
 
